@@ -1,0 +1,328 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 50px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    *border: 1px solid red;
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+.home{
+    width: 100%;
+}
+
+.heading{
+    color: rgb(27, 13, 224);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+    font-style: normal;
+    text-align: left;
+    padding-top: 200px;
+    letter-spacing: 1px;
+}
+.second-heading{
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 65px;
+    font-style: italic;
+    text-align: left;
+}
+.heading span{
+    opacity: 0;
+    display: inline-block;
+    animation: animate 1s linear forwards;
+}
+@keyframes animate {
+    0%{
+        opacity: 0;
+        transform: rotateY(90deg);
+        filter: blur(10px);
+    }
+    100%{
+        opacity: 1;
+        transform: rotateY(0deg);
+        filter: blur(0);
+    }
+}
+.heading span:nth-child(1){
+    animation-delay:1s ;
+}
+.heading span:nth-child(2){
+    animation-delay:1.5s ;
+}
+.heading span:nth-child(3){
+    animation-delay:2s ;
+}
+.heading span:nth-child(4){
+    animation-delay:2.5s ;
+}
+.heading span:nth-child(5){
+    animation-delay:3s ;
+}
+.heading span:nth-child(6){
+    animation-delay:3.5s ;
+}
+.heading span:nth-child(7){
+    animation-delay:4s ;
+}
+.heading span:nth-child(8){
+    animation-delay:4.5s ;
+}
+.heading span:nth-child(9){
+    animation-delay:5s ;
+}
+.heading span:nth-child(10){
+    animation-delay:5.5s ;
+}
+.heading span:nth-child(11){
+    animation-delay:6s ;
+}
+.heading span:nth-child(12){
+    animation-delay:6.5s ;
+}
+.heading span:nth-child(1){
+    animation-delay:1s ;
+}
+
+.btns{
+    align-items: center;
+    margin: 0;
+    margin: auto;
+    padding-left: 600px;
+}
+.arrivals2{
+    display: none;
+}
+.h1{
+    text-align: center;
+}
+.h4{
+    text-align: center;
+}
+.button{
+    border: 1px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.con2{
+    padding-top: 70px;
+}
+    
+
+.centered-form {
+ padding-top:20px ;
+
+ border-radius: 10px;
+}
+
+.centered-form .panel {
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: rgba(0, 0, 0, 0.3) 1px 4px 9px;
+}
+.about{
+    background-color: rgb(219, 213, 213);
+    height: 630px;
+    line-height: 35px;
+    padding-top: 60px;
+}
+.subheading{
+    padding: 20px;
+    text-decoration: underline;
+}
+.word{
+    font-style: italic;
+    color: black;
+    font-weight: bold;
+}
+.contact{
+    margin-top: 25px;
+    padding-top: 40px;
+}
+.contact_input{
+    padding-top: 25px;
+    width: 60%;
+    padding: .8rem;
+    outline: none;
+    border: 1.5 solid darkolivegreen;
+    font-size: normal;
+    margin-bottom: 40px;
+    border-radius: .5rem;
+    background: transparent;
+  }
+  .contact_button{
+    display: block;
+    background-color: darkslategrey;
+    color: white;
+    padding: .60rem 4rem;
+    margin-top: 2px;
+    margin-right: auto;
+    margin-bottom: 5px;
+    border-radius: .5rem;
+    border: none;
+    outline: none;
+    font-size: normal;
+    cursor: pointer;
+  }
+  .form1{
+      padding-top: 65px;
+  }
+  .field{
+      padding: 20px;
+      
+  }
+  #input{
+      padding: 0;
+  }
+  #input-button{
+      width: 15%;
+      padding: 10px;
+      padding: 4px;
+      color: white;
+      text-transform: uppercase;
+      font-weight: bold;
+      background-color: teal;
+      border-radius: 5px;
+      text-shadow:1px 1px 0px teal;
+      border: none;
+      box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #497a78, 0px 10px 5px #999;
+  }
+  #input-field{
+      border: 1px solid black;
+      border-radius: 5px;
+      padding: 10px;
+      width: 100%;
+  }
+  .cloths{
+      width: 100%;
+      height: 120vh;
+  }
+  .btn1{
+    padding-top: 200px;
+    padding-left: 550px;
+   
+  }
+  .btn1 h3{
+       border: 1px solid rgb(41, 211, 35);
+       border-radius: 10px;
+       width: 25%;
+       text-align: center;
+       background-color: rgb(25, 238, 139);
+       color: white;
+       padding: 10px;
+  }
+  .dropup,
+.dropdown {
+  position: relative;
+}
+
+.dropdown-toggle:focus {
+  outline: 0;
+}
+ 
+#drop {
+  background-color: red;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+  .dropdown-menu a{
+      
+      display: block;
+      padding: 10px 20px;
+      clear: both;
+      font-weight: bold;
+      font-family: cursive;
+      line-height: 1.42857;
+      color:rgb(241, 234, 234);
+      white-space: nowrap;
+  }
+  .pad{
+      padding-top: 70px;
+  }
+ 
+ 
+
+
+
+
+@media screen and (max-width: 768px){
+    .home{
+        width: auto;
+        height: 100vh;
+        overflow: hidden;
+        background-image: url(images/hero1.jpg) ;
+    }
+    .heading{
+        color: rgb(27, 13, 224);
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 30px;
+        font-style: normal;
+        text-align: center;
+        padding-top: 150px;
+
+    }
+    .second-heading{
+        padding-top: 20px;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 25px;
+        font-style: italic;
+        text-align: center;
+        
+    }
+    
+    .btns{
+        width: auto;
+        
+        padding-left: 120px;
+        padding-top: 50px;
+    }
+    .arrivals{
+       display: none;
+    }
+    .arrivals2{
+        display: block;
+    }
+    .boots{
+        display: none;
+    }
+    #vid{
+        height: 400px;
+        width: 400px;
+    }
+    .cloths{
+        width: 100%;
+        height: 100vh;
+    }
+    .btn1{
+      padding-top: 150px;
+      padding-left: 100px;
+    }
+    .btn1 h3{
+        border: 1px solid blue;
+        border-radius: 10px;
+        width: 50%;
+        text-align: center;
+        background-color: rgb(43, 40, 211);
+        color: white;
+        padding: 10px;
+   }
+    
+}

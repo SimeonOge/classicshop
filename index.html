@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link href="css/bootstrap.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <title>Sports Arena</title>
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar navbar-expand-lg fixed-top bg-light">
+          <div class="container"><a href="index.html" class="navbar-brand text-uppercase font-weight-bold">Sports Arena
+            </a>
+            <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler mr-auto large"><span class="text-uppercase mr-2">Menu</span><i class="fas fa-bars"></i></button>
+            <div id="navbarSupportedContent" class="collapse navbar-collapse">
+              <ul class="navbar-nav ml-auto d-lg-flex align-items-lg-center">
+                <li class="nav-item"><a href="index.html" class="nav-link font-weight-bold text-uppercase px-lg-3 py-lg-4 active">Home </a>
+                </li>
+                <li class="nav-item"><a href="about.html" class="nav-link link-scroll font-weight-bold  text-uppercase px-lg-3 ">About </a>
+                </li>
+                <li class="nav-item dropdown"><a id="navbarDropdownMenuLink" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link font-weight-bold text-uppercase px-lg-3 py-lg-4 dropdown-toggle">Categories</a>
+                  <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu mt-0" id="drop">
+                      <a href="cloths.html" class="dropdown-item small text-uppercase">Cloths</a>
+                      <a href="shoes.html" class="dropdown-item small text-uppercase">Shoes</a>
+                      <a href="bags.html" class="dropdown-item small text-uppercase">Bags</a>
+                      <a href="sports.html" class="dropdown-item small text-uppercase">Sports</a>
+
+                      <a href="perfumes.html" class="dropdown-item small text-uppercase">Perfumes</a></div>
+                </li>
+                <li class="nav-item"><a href="contact.html" class="nav-link font-weight-bold text-uppercase px-lg-3 py-lg-4">Contact </a>
+                </li>
+                <li class="nav-item mt-4 mt-lg-0">
+                  <button type="button" data-toggle="modal" data-target="#loginModal" class="btn btn-outline-primary nav-btn btn-sm"> <i class="fas fa-sign-out-alt mr-2"></i>Login </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+
+      <div id="loginModal" tabindex="-1" role="dialog" aria-lebelledby="loginModalLabel" aria-hidden="true" class="modal fade">
+        <div role="document" class="modal-dialog modal-sm">
+          <div class="modal-content rounded-0">
+            <div class="modal-header">
+              <h5 id="loginModalLabel" class="text-uppercase modal-title m-0">Customers login</h5>
+              <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true" class="small text-muted">&times;</span></button>
+            </div>
+            <div class="modal-body">
+              <form action="">
+                <div class="form-group">
+                  <input type="email" placeholder="email" class="form-control">
+                </div>
+                <div class="form-group">
+                  <input type="password" placeholder="password" class="form-control">
+                </div>
+                <div class="form-group text-center">
+                  <button type="submit" class="btn btn-outline-primary nav-btn btn-sm"> <i class="fas fa-sign-out-alt mr-2"></i>Login </button>
+                </div>
+              </form>
+              <div class="text-center">   
+                <p class="text-muted small">Not registered yet?</p>
+                <p class="small text-muted"> <a href="#" class="font-weight-bold">Register now!</a> It is easy and done in 1 minute and gives you access to special discounts and much more!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+
+     <section class="home" style="background: url(images/hero.jpg) ;  background-size: cover; height: 100vh; ">
+          <div class="container-fluid">  
+            <h1 class="heading text-uppercase">
+              <span>S</span>
+              <span>p</span>
+              <span>o</span>
+              <span>r</span>
+              <span>t</span>
+              <span>s</span>
+              <span></span>
+              <span>A</span>
+              <span>r</span>
+              <span>e</span>
+              <span>n</span>
+              <span>a</span>
+              
+              </h1> 
+            <div class="second-heading text-uppercase">Summer Sale</div> 
+            
+
+            <div class="btns">
+                <button type="button" data-toggle="modal" data-target="#loginModal" class="btn btn-outline-primary nav-btn btn-sm"> <i class="fas fa-sign-out-alt mr-2"></i>Login </button>
+                <a href="signup.html"><button type="button"  class="btn btn-outline-primary nav-btn btn-sm"> <i class="fas fa-sign-out-alt mr-2"></i>Sign up </button></a>
+            </div>
+          </div>
+
+      </section>
+
+      <section class="arrivals">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12 col-sm-6 h1">
+
+              <h1> <marquee WIDTH=400 HEIGHT=50 BEHAVIOR=ALTERNATE>NEW ARRIVALS!! </marquee> </h1>
+            
+              
+                 <img class="img-fliud" src="images/shoes.jpg" alt="Submit">
+                <p> <b> New Arrival Shoes [MALE | FEMALE] </p> </b>
+  
+          
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="arrivals2">
+        <div class="container-fluid">
+          <div class="row">
+            
+
+              <h1> <marquee WIDTH=400 HEIGHT=50 BEHAVIOR=ALTERNATE>NEW ARRIVALS!! </marquee> </h1>
+              
+              
+                <img id="topimg" src="images/slider3/shoe (1).jpg"/>	
+             </div>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="Featured Products">
+        <h2 class="subheading text-center">Featured Products</h2>
+        <div class="container-fliud">
+          <div class="row no-gutters">
+            
+
+            <div class="col-md-3 col-sm-4">
+              <img src="images/madidasjacket3.jpg" alt="">
+              <p> Code No.
+                <br>Price: $60 </br></p>
+                <p><a href="buy.html" class="button">Buy Now</a></p>
+            </div>
+
+            <div class="col-md-3 col-sm-4">
+              <img src="images/wadidasbag2.jpg" alt="">
+              <p> Code No.
+                <br>Price: $60 </br></p>
+                <p><a href="buy.html" class="button">Buy Now</a></p>
+            </div>
+
+            <div class="col-md-3 col-sm-4">
+              <img src="images/wnikebra5.jpg" alt="">
+              <p> Code No.
+                <br>Price: $60 </br></p>
+                <p><a href="buy.html" class="button">Buy Now</a></p>
+            </div>
+
+            <div class="col-md-3 col-sm-4">
+              <img src="images/nmenjackets.jpg" alt="">
+              <p> Code No.
+                <br>Price: $60 </br></p>
+                <p><a href="buy.html" class="button">Buy Now</a></p>
+            </div>
+
+            <div class="col-md-3 col-sm-4">
+              <img src="images/wpumaacce5.jpg" alt="">
+              <p> Code No.
+                <br>Price: $60 </br></p>
+                <p><a href="buy.html" class="button">Buy Now</a></p>
+            </div>
+
+            <div class="col-md-3 col-sm-4">
+              <img src="images/madidaspants6.jpg" alt="">
+              <p> Code No.
+                <br>Price: $60 </br></p>
+                <p><a href="buy.html" class="button">Buy Now</a></p>
+            </div>
+
+            <div class="col-md-3 col-sm-4">
+              <img src="images/wvanscap2.jpg" alt="">
+              <p> Code No.
+                <br>Price: $60 </br></p>
+                <p><a href="buy.html" class="button">Buy Now</a></p>
+            </div>
+
+            <div class="col-md-3 col-sm-4">
+              <img src="images/mreebokjacket4.jpg" alt="">
+              <p> Code No.
+                <br>Price: $60 </br></p>
+                <p><a href="buy.html" class="button">Buy Now</a></p>
+            </div>
+
+            <div class="col-md-3 col-sm-4">
+              <img src="images/wvanstshirt3.jpg" alt="">
+              <p> Code No.
+                <br>Price: $60 </br></p>
+                <p><a href="buy.html" class="button">Buy Now</a></p>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <img src="images/mvanspant2.png" alt="">
+              <p> Code No.
+                <br>Price: $60 </br></p>
+                <p><a href="buy.html" class="button">Buy Now</a></p>
+            </div>
+
+            <div class="col-md-3 col-sm-4">
+              <img src="images/wadidasbag5.jpg" alt="">
+              <p> Code No.
+                <br>Price: $60 </br></p>
+                <p><a href="buy.html" class="button">Buy Now</a></p>
+            </div>
+
+            <div class="col-md-3 col-sm-4">
+              <img src="images/mnikejackets3.jpg" alt="">
+              <p> Code No.
+                <br>Price: $60 </br></p>
+                <p><a href="buy.html" class="button">Buy Now</a></p>
+            </div>
+
+            <div class="col-md-3 col-sm-4">
+              <img src="images/wnikejacket3.jpg" alt="">
+              <p> Code No.
+                <br>Price: $60 </br></p>
+                <p><a href="buy.html" class="button">Buy Now</a></p>
+            </div>
+
+            <div class="col-md-3 col-sm-4">
+              <img src="images/wvanspant.jpg" alt="">
+              <p> Code No.
+                <br>Price: $60 </br></p>
+                <p><a href="buy.html" class="button">Buy Now</a></p>
+            </div>
+
+            <div class="col-md-3 col-sm-4">
+              <img src="images/wvansshoes6.jpg" alt="">
+              <p> Code No.
+                <br>Price: $60 </br></p>
+                <p><a href="buy.html" class="button">Buy Now</a></p>
+            </div>
+
+            <div class="col-md-3 col-sm-4">
+              <img src="images/wadidasjacket.jpg" alt="">
+              <p> Code No.
+                <br>Price: $60 </br></p>
+                <p><a href="buy.html" class="button">Buy Now</a></p>
+            </div>
+
+            <div class="col-md-3 col-sm-4">
+              <img src="images/wnikepants2.jpg" alt="">
+              <p> Code No.
+                <br>Price: $60 </br></p>
+                <p><a href="buy.html" class="button">Buy Now</a></p>
+            </div>
+
+            <div class="col-md-3 col-sm-4">
+              <img src="images/wvansskirt2.jpg" alt="">
+              <p> Code No.
+                <br>Price: $60 </br></p>
+                <p><a href="buy.html" class="button">Buy Now</a></p>
+            </div>
+
+            <div class="col-md-3 col-sm-4">
+              <img src="images/wnikeshoes3.jpg" alt="">
+              <p> Code No.
+                <br>Price: $60 </br></p>
+                <p><a href="buy.html" class="button">Buy Now</a></p>
+            </div>
+
+            <div class="col-md-3 col-sm-4">
+              <img src="images/wpumaswim2.jpg" alt="">
+              <p> Code No.
+                <br>Price: $60 </br></p>
+                <p><a href="buy.html" class="button">Buy Now</a></p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+
+
+      <section class="perfumes">
+        <h2 class="subheading text-center">Grab Branded Perfumes</h2>
+        <div class="container-fliud">
+          <div class="row no-gutters">
+            
+
+            <div class="col-md-3 col-sm-6">
+              <img src="images/perfume.jpg" alt="">
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <img src="images/perfume2.jpg" alt="">
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <img src="images/perfume6.jpg" alt="">
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <img src="images/perfume7.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="boots">
+        <div class="container-fliud">
+          <div class="h4">
+            <h4> <br> <marquee WIDTH=400 BEHAVIOR=ALTERNATE> FOOTBALL SHOES!</marquee>  </h4> </br>
+            <figure>
+            <form action="boots.html">
+            <input type="image" src="images/adidasmessi.jpg" alt="Submit" title="Click Here To Shop Now!">
+            </div> </form> </figure>
+
+
+        </div>
+      </section>
+
+    
+
+      <section class="video">
+        <div class="container-fliud">
+          <div class="row no-gutter">
+            <div class="col-md-6 col-sm-12">
+              <video id="vid" width="600" height="300" controls autoplay loop muted>
+                <source src="video/Zara man.mp4" type="video/mp4">
+                <source src="video/Zara man.ogg" type="video/ogg">
+                Your browser does not support HTML5 video.
+              </video>
+            </div>
+            
+            <div class="col-md-6 col-sm-12">
+              <video id="vid" width="600" height="300" controls autoplay loop muted> 
+                <source src="video/Diesel clothing.mp4" type="video/mp4">
+                <source src="video/Diesel clothing.ogg" type="video/ogg">
+                
+                  Your browser does not support HTML5 video.
+              </video>
+            </div>
+
+
+          </div>
+        </div>
+      </section>
+      <section class="brands">
+        <div class="container-fluid">
+          <div class="row no-gutters">
+            <div class="col-md-3">
+              <img src="images/adidas.png" width="300" height="200">
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <img src="images/nike.png" width="300" height="200">
+            </div>
+
+            <div class="col-md-3">
+              <img src="images/puma.jpg" width="300" height="200">
+            </div>
+
+            <div class="col-md-3">
+              <img src="images/reebok.png" width="300" height="200">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="footer bg-light py-5">
+        <div class="container"><div class="small text-center text-muted">Copyright © 2020 - CLASSIC SHOP</div></div>
+
+      </section>
+
+      
+
+     
+    
+    
+
+    <script src="js/jquery-3.5.1 (2).js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/anime.min.js"></script>
+    
+    <script src="js/index.js"></script>
+</body>
+</html>

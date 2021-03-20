@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link href="css/bootstrap.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <title>Classic Shop</title>
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar navbar-expand-lg fixed-top bg-light">
+          <div class="container"><a href="index.html" class="navbar-brand text-uppercase font-weight-bold">Classic Shop</a>
+            <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler mr-auto large"><span class="text-uppercase mr-2">Menu</span><i class="fas fa-bars"></i></button>
+            <div id="navbarSupportedContent" class="collapse navbar-collapse">
+              <ul class="navbar-nav ml-auto d-lg-flex align-items-lg-center">
+                <li class="nav-item"><a href="index.html" class="nav-link font-weight-bold text-uppercase px-lg-3 py-lg-4 active">Home </a>
+                </li>
+                <li class="nav-item"><a href="about.html" class="nav-link link-scroll font-weight-bold  text-uppercase px-lg-3 ">About </a>
+                </li>
+                <li class="nav-item dropdown"><a id="navbarDropdownMenuLink" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link font-weight-bold text-uppercase px-lg-3 py-lg-4 dropdown-toggle">Categories</a>
+                  <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu mt-0" id="drop">
+                      <a href="cloths.html" class="dropdown-item small text-uppercase">Cloths</a>
+                      <a href="#" class="dropdown-item small text-uppercase">Shoes</a>
+                      <a href="#" class="dropdown-item small text-uppercase">Bags</a>
+                      <a href="#" class="dropdown-item small text-uppercase">Sports</a>
+
+                      <a href="#" class="dropdown-item small text-uppercase">Perfumes</a></div>
+                </li>
+                <li class="nav-item"><a href="contact.html" class="nav-link font-weight-bold text-uppercase px-lg-3 py-lg-4">Contact </a>
+                </li>
+                <li class="nav-item mt-4 mt-lg-0">
+                  <button type="button" data-toggle="modal" data-target="#loginModal" class="btn btn-outline-primary nav-btn btn-sm"> <i class="fas fa-sign-out-alt mr-2"></i>Login </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+
+
+      <form class="form1">
+              <h1 class="subheading text-center"> Sign Up For More Offers And Discount </h1>
+
+        <h3 class="subheading text-center">Payment Information</h3>
+        <div class="container-fluid">
+          <div class="row">
+            
+
+            <div class="col-m-3 field">
+              <input id="input-field" type="text" name="streetaddress" required="required" autocomplete="on" maxlength="45" placeholder="Street Address"/>
+
+            </div>
+
+            <div class="col-m-3 field">
+              <input id="input-field" type="text" name="city" required="required" autocomplete="on" maxlength="20" placeholder="City"/>
+            </div>
+
+           <div class="col-m-3 field">
+            <input id="input-field" type="text" name="zipcode" required="required" autocomplete="on" pattern="[0-9]*" maxlength="5" placeholder="ZIP code"/>
+            </div>
+
+            <div class="col-m-3 field">
+              <input id="input"  type="email" name="email" required="required" autocomplete="on" maxlength="40" placeholder="Email"/>
+            </div>
+           </div>
+        <div class="row">
+
+            <div class="col-m-3 field">
+              <input id="input-field" type="text" name="first-name" placeholder="First Name"/>
+            </div>
+
+            <div class="col-m-3 field">
+              <input id="input-field" type="text" name="last-name" placeholder="Surname"/>
+            </div>
+
+            <div class="col-m-3 field">
+              <input id="input-field" type="text" name="number" placeholder="Card Number"/>
+            </div>
+
+            <div class="col-m-3 field">
+              <input id="input-field" type="text" name="expiry" placeholder="MM / YY"/>
+            </div>
+          </div>
+
+          <div class="row">
+
+            <div class="col-m-4 field">
+              <input id="input-field" type="text" name="cvc" placeholder="CCV"/>
+            </div>
+
+            <div class="col-m-4 field">
+              <input id="input-field" type="text" name="productcode" placeholder="Product Code"/>
+            </div>
+
+            <div class="col-m-4 field">
+              <input id="input" type="number" name="contactnumber" placeholder="Contact Number"/>
+            </div>
+          </div>
+          <input id="input-button" type="submit" value="Submit"/>
+        </div>
+      </form>
+
+   
+
+
+
+
+</body>
+</html>
